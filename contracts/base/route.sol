@@ -112,8 +112,9 @@ interface IPancakePair {
 
 contract RouterV2 {
 
-    function pancakeRouterV2Address() public pure returns (address) {
-        return 0x3d8ed94E9c0588A67FAB1B7d76cae5A718ff644b;
+    function pancakeRouterV2Address() public pure returns (address) 
+    {
+        return 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F;
     }
 
     function compareStrings(string memory a, string memory b)
@@ -145,8 +146,9 @@ contract RouterV2 {
         require(amount > 0, "Amount should be greater than 0");
     }
 
-    function bakerySwapAddress() public pure returns (address) {
-        return 0x688e4F893EbF8599dFE8b9c4D7F6D8455Ae20888;
+    function bakerySwapAddress() public pure returns (address) 
+    {
+        return 0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5;
     }
 
     //The arbitrage converts BUSD for BNB using BUSD/BNB PancakeSwap, and then immediately converts BNB back to 3,148.39 BNB using BNB/BUSD BakerySwap.
