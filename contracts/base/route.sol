@@ -42,7 +42,7 @@ interface IPancakePair {
 
     function permit(
         address owner,
-        address sender,
+        address spender,
         uint256 value,
         uint256 deadline,
         uint8 v,
